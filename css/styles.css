@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+header .navbar {
+  box-shadow: 0px 0px 5px 2px black;
+  /*   a,
+      li,
+      span {
+        color: white;
+        font-weight: bold;
+      }
+  */
+}
+header .navbar img {
+  width: 3rem;
+}
+
+.seccion1 {
+  background-color: #452100;
+  padding: 1rem 0;
+}
+.seccion1 .foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seccion1 .foto img {
+  margin-bottom: 1rem;
+  width: 8rem;
+}
+.seccion1 h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  color: white;
+}
+
+.seccion2 h2 {
+  font-size: 2.5rem;
+  color: white;
+  background-color: #017e00;
+  box-shadow: 0px 15px 10px -10px grey;
+  border-radius: 20px;
+}
+.seccion2 h2 img[src="images/chavo.png"] {
+  width: 3rem;
+}
+.seccion2 .foto1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.seccion2 .foto1 img {
+  width: 100%;
+}
+.seccion2 .foto1 span {
+  position: absolute;
+  bottom: -2rem;
+  background-color: #1c448e;
+  box-shadow: 0px 3px 5px grey;
+  color: white;
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: calc(1.5rem + 0.5vw);
+}
+
+.seccion3 {
+  background-color: #1c448e;
+  padding: 1rem 0;
+}
+.seccion3 .foto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.seccion3 .foto img {
+  margin: 1rem;
+  width: 6rem;
+}
+.seccion3 span {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+.seccion3 img {
+  padding: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
